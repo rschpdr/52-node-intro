@@ -30,3 +30,17 @@ $ npm install
 <!-- Ver index.js linha 1 -->
 
 <!-- Como os pacotes podem ocupar muito espaço de armazenamento no computador, não subimos a pasta node_modules para o Github. Assim, toda vez que alguém (ou você em outro dispositivo) clonar um projeto, é necessário executar o npm install. Para ignorar a pasta node_modules no Git, usamos o arquivo .gitignore -->
+
+<!-- No package.json, um script nada mais é do que um 'apelido' para um comando de terminal. Sua função é simplesmente encurtar o que precisamos digitar -->
+
+<!-- Para executar um script pelo NPM, usamos a sintaxe npm run nome-do-script -->
+
+$ npm run start
+
+<!-- Alguns scripts são especiais e não precisam da palavra-chave run -->
+
+$ npm start
+
+<!-- Lista de script que não precisam do run -->
+
+https://docs.npmjs.com/cli/v6/using-npm/scripts#life-cycle-operation-order
